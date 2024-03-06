@@ -12,4 +12,4 @@
         apt:
           name: nginx
           state: present
-        when: ans   
+        when: ansible_os_family   
