@@ -15,4 +15,5 @@
         when: ansible_os_family ==  'debian''   
     - name: start nginx service
       service
+        name: nginx
         
