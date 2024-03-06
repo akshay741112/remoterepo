@@ -3,4 +3,4 @@
     hosts:  all 
     become: all
     tasks:
-      - name: up  
+      - name: update  
