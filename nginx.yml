@@ -16,4 +16,4 @@
     - name: start nginx service
       service
         name: nginx
-        
+        state:  st
