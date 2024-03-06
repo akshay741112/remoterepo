@@ -3,4 +3,4 @@
     hosts:  all 
     become: all
     tasks:
-      - name: update apt ca  
+      - name: update apt cache for debian  
