@@ -1,3 +1,3 @@
 ---
   - name: install nginx     
-    hosts:  all
+    hosts:  ansible.builtin.file:
