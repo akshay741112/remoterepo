@@ -6,4 +6,4 @@
       - name: update apt cache 
         apt:  
           update_cache: yes 
-        when: ansible_  
+        when: ansible_os  
