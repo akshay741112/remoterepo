@@ -1,7 +1,7 @@
 ---
-  - name: install nginx     
-    hosts:  all 
-    become: all
+  - name: Install nginx     
+    hosts:  your_target_servers
+    become: true
     tasks:
       - name: update apt cache 
         apt:  
@@ -17,4 +17,4 @@
       service
         name: nginx
         state:  started
-...        
+       
