@@ -2,4 +2,5 @@
   - name: install nginx     
     hosts:  all 
     become: all
-    tas  
+    tasks:
+        
