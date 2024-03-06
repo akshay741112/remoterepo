@@ -13,4 +13,5 @@
           name: nginx
           state: present
         when: ansible_os_family ==  'debian''   
-    - name: start nginx serv
+    - name: start nginx service
+    
