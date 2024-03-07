@@ -5,4 +5,6 @@
     tasks:
     - name: copy file
       copy: 
-        src: /root/myfile
+        src: /root/myfile.txt
+        dest: /tmp
+        
