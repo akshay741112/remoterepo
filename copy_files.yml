@@ -5,7 +5,7 @@
   tasks:
   - name: copy file
     copy: 
-      src: /hom
+      src: /home/akshay
       dest: /tmp
       owner: 'Ubuntu'
       group: 'Ubuntu'
