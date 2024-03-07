@@ -5,7 +5,7 @@
   tasks:
   - name: copy file
     copy: 
-      src: /root/akshay
+      src: /root/akshay.txt
       dest: /tmp
       owner: 'Ubuntu'
       group: 'Ubuntu'
