@@ -8,6 +8,6 @@
     copy: 
       src: /home/ubuntu/akshay.txt
       dest: /tmp
-      
+      chmod: 777
       backup: true
 ...        
