@@ -1,6 +1,7 @@
 ---
 - name: all copy ansible_os_family
   hosts:  all
+  
 
   tasks:
   - name: copy file
