@@ -8,4 +8,5 @@
         src: /root/myfile.txt
         dest: /tmp
         owner: 'Ubuntu'
-        group
+        group: 'Ubuntu'
+        
