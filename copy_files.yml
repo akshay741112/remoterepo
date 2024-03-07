@@ -7,4 +7,4 @@
       copy: 
         src: /root/myfile.txt
         dest: /tmp
-        owner:  'Ubuntu'
+        owner: 'Ubuntu'\
