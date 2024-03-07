@@ -5,4 +5,4 @@
     tasks:
     - name: copy file
       copy: 
-        src
+        src: /root
