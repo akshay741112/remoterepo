@@ -9,4 +9,5 @@
         dest: /tmp
         owner: 'Ubuntu'
         group: 'Ubuntu'
-        mode: 0
+        mode: 0777
+        
