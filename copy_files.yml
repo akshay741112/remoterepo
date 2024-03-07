@@ -3,10 +3,10 @@
   hosts:  all
 
   tasks:
-    - name: copy file
-      copy: 
-        src: /root/myfile.txt
-        dest: /tmp
+  - name: copy file
+    copy: 
+      src: /root/myfile.txt
+      dest: /tmp
         owner: 'Ubuntu'
         group: 'Ubuntu'
         mode: 0777
