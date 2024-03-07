@@ -8,8 +8,5 @@
     copy: 
       src: /home/ubuntu/akshay.txt
       dest: /tmp
-      owner: 'Ubuntu'
-      group: 'Ubuntu'
-      mode: 0777
       backup: true
         
