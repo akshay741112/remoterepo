@@ -2,7 +2,7 @@
 - name: all copy ansible_os_family
   hosts:  all
 
-    tasks:
+  tasks:
     - name: copy file
       copy: 
         src: /root/myfile.txt
