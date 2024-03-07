@@ -1,6 +1,6 @@
 ---
 - name: Install Nginx
-  hosts: your_target_host
+  hosts: all
   become: yes  # This allows Ansible to run commands with sudo
 
   tasks:
