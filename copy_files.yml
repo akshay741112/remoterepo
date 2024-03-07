@@ -7,8 +7,8 @@
     copy: 
       src: /root/myfile.txt
       dest: /tmp
-        owner: 'Ubuntu'
-        group: 'Ubuntu'
-        mode: 0777
-        backup: true
+      owner: 'Ubuntu'
+      group: 'Ubuntu'
+      mode: 0777
+      backup: true
 ...        
