@@ -1,5 +1,5 @@
 ---
-- name: roles-deploy
+- name: use a ro
   hosts: all
   become: true
   roles: sample_roles
