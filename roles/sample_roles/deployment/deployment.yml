@@ -1,5 +1,5 @@
 ---
-- name: use a role"
+- name: "use a role"
   hosts: all
   become: true
   roles: sample_roles
