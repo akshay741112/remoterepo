@@ -1,6 +1,0 @@
----
-- name: "use a role"
-  hosts: all
-  become: true
-  roles: 
-    - sample_roles
