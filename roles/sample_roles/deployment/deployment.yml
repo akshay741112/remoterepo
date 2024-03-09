@@ -2,4 +2,4 @@
 - name: roles-deploy
   hosts: all
   become: true
-  roles: samole
+  roles: sample_roles
