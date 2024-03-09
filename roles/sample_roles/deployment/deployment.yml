@@ -1,5 +1,4 @@
 - name: role_deployment
   hosts: all
   become: true
-  roles:
-    - sample_roles
+  roles: sample_roles
